@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,780");
+
+.index {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  height: 1024px;
+  overflow: hidden;
+  padding: 32px 0;
+  width: 1440px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group {
+  height: 646px;
+  margin-left: -10px;
+  position: relative;
+  width: 1450px;
+}
+
+.rectangle-3 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 145px;
+  left: 183px;
+  position: absolute;
+  top: 19px;
+  width: 435px;
+}
+
+.rectangle-13 {
+  background-color: var(--calypso);
+  height: 10px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.trate-da-sua-saude {
+  color: transparent;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 125px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+}
+
+.span1 {
+  color: var(--calypso);
+}
+
+.frame-10 {
+  align-items: center;
+  background-color: var(--steel-blue);
+  border-radius: 5px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 238px;
+  padding: 10px;
+  position: absolute;
+  top: 91px;
+}
+
+.registe-se-aqui {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.image-1 {
+  height: 382px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 1450px;
+}
+
+.rectangle-14 {
+  background-color: var(--calypso);
+  height: 271px;
+  left: 10px;
+  position: absolute;
+  top: 375px;
+  width: 1440px;
+}
+
+.rapido-simples-e-eficaz {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 488px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 487px;
+  white-space: nowrap;
+}
+
+.flex-row {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 58px;
+  margin-right: 37px;
+  min-width: 1319px;
+}
+
+.como-funciona {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-left: 200px;
+  min-height: 22px;
+  min-width: 132px;
+}
+
+.title {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 48px;
+  min-width: 197px;
+  white-space: nowrap;
+}
+
+.overlap-group1 {
+  border-radius: 5px;
+  height: 46px;
+  margin-left: 175px;
+  position: relative;
+  width: 155px;
+}
+
+.rectangle-2 {
+  background-color: var(--steel-blue);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s linear;
+  width: 155px;
+}
+
+.rectangle-2:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+
+.entrar {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-12);
+  font-weight: 400;
+  left: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 49px;
+}
+
+.contacte-nos,
+.testemunhos {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 6px;
+  margin-left: 114px;
+  min-height: 22px;
+  min-width: 117px;
+}

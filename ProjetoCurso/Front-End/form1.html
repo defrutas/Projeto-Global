@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form1.css">
+    <link rel="stylesheet" href="CSS/styleguide.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="form screen">
+        <div class="flex-col">
+            <div class="flex-col-1 flex-col-6">
+                <div class="flex-col-2 flex-col-6">
+                    <div class="flex-col-3 flex-col-6">
+                        <header class="header">
+                            <h1 class="title">ACESIPCA</h1>
+                            <div class="flex-col-4 flex-col-6">
+                                <div class="bem-vindo-flavio-carvalho">
+                                    <span class="span8">Bem-Vindo,<br /></span><span class="span1">Flavio Carvalho</span>
+                                </div>
+                                <div class="flex-row-1">
+                                    <div class="realizar-pedido-de-acesso inter-normal-black-18px">Realizar Pedido de Acesso</div>
+                                    <div class="registos-clinicos inter-normal-black-18px">Registos Clinicos</div>
+                                    <div class="historico-de-pedidos inter-normal-black-18px">Historico de Pedidos</div>
+                                </div>
+                                <div class="frame-9 frame-1">
+                                    <div class="terminar-sessao">Terminar-Sessao</div>
+                                </div>
+                            </div>
+                        </header>
+                        <div class="rectangle-4"></div>
+                        <p class="preencha-a-solicitac">
+                            <span class="span8">Preencha a solicitacao para uma </span><span class="inter-normal-calypso-25px">Junta Medica</span>
+                        </p>
+                        <div class="group-7 group">
+                            <img class="line-3 line" src="line-3.svg" alt="Line 3" />
+                            <div class="identificao inter-normal-calypso-25px">Identificação</div>
+                            <img class="line-4 line" src="line-3.svg" alt="Line 4" />
+                        </div>
+          
+                        <div class="nome">
+                            <div class="place inter-normal-black-18px">Nome</div>
+                            <div class="frame-11 frame-1">
+                                <input type="text" class="insira-o-nome inter-normal-chicago-18px" placeholder="Insira o seu nome">
+                            </div>
+                        </div>
+                        <div class="flex-row-2">
+                            <div class="num-utente inter-normal-black-18px">Num Utente</div>
+                            <div class="frame-12 frame-1">
+                                <input type="text" class="insira-o-seu-numero-de-utente insira-o-seu-numero-de inter-normal-chicago-18px" placeholder="Insira o seu numero de utente">
+                            </div>
+                        </div>
+                        <div class="flex-row-3">
+                            <p class="bilhete-de-identidade-cc inter-normal-black-18px">Bilhete de identidade/ CC</p>
+                            <div class="frame-13 frame-1">
+                                <input type="text" class="insira-o-seu-numero inter-normal-chicago-18px" placeholder="Insira o seu cartao de cidadao">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-row-4">
+                    <div class="emitido-pelo-dsic-de inter-normal-black-18px">Emitido pelo D.S.I.C.
+                        <div class="overlap-group-3 overlap-group-4">
+                            <div class="distrito inter-normal-chicago-18px">                            <!-- Dropdown menu for district -->
+                                <select class="arrow-icon" id="distritoDropdown" required>
+                                    <option value="" disabled selected hidden>Distrito</option>
+                                    <option value="district1">Aveiro</option>
+                                    <option value="district2">Beja</option>
+                                    <option value="district3">Braga</option>
+                                    <option value="district3">Braganca</option>
+                                    <option value="district3">Castelo Branco</option>
+                                    <option value="district3">Coimbra</option>
+                                    <option value="district3">Evora</option>
+                                    <option value="district3">Faro</option>
+                                    <option value="district3">Guarda</option>
+                                    <option value="district3">Leiria</option>
+                                    <option value="district3">Lisboa</option>
+                                    <option value="district3">Portalegre</option>
+                                    <option value="district3">Porto</option>
+                                    <option value="district3">Santarem</option>
+                                    <option value="district3">Setubal</option>
+                                    <option value="district3">Viana do Castelo</option>
+                                    <option value="district3">Vila Real</option>
+                                    <option value="district3">Viseu</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="em inter-normal-black-18px">em</div>
+                        <div class="overlap-group">
+                            <!-- Dropdown menu for days with a placeholder -->
+                            <select class="arrow-icon" id="dayDropdown" required>
+                                <option value="" disabled selected hidden>Selecione o Dia</option>
+                                <option value="day1">1</option>
+                                <option value="day2">2</option>
+                                <option value="day3">3</option>
+                                <option value="day3">4</option>
+                                <option value="day3">5</option>
+                                <option value="day3">6</option>
+                                <option value="day3">7</option>
+                                <option value="day3">8</option>
+                                <option value="day3">9</option>
+                                <option value="day3">10</option>
+                                <option value="day3">11</option>
+                                <option value="day3">12</option>
+                                <option value="day3">13</option>
+                                <option value="day3">14</option>
+                                <option value="day3">15</option>
+                                <option value="day3">16</option>
+                                <option value="day3">17</option>
+                                <option value="day3">18</option>
+                                <option value="day3">19</option>
+                                <option value="day3">20</option>
+                                <option value="day3">21</option>
+                                <option value="day3">22</option>
+                                <option value="day3">23</option>
+                                <option value="day3">24</option>
+                                <option value="day3">25</option>
+                                <option value="day3">26</option>
+                                <option value="day3">27</option>
+                                <option value="day3">28</option>
+                                <option value="day3">29</option>
+                                <option value="day3">30</option>
+                                <option value="day3">31</option>
+                            </select>
+                        </div>
+                        <div class="overlap-group-1 overlap-group-4">
+                            <div class="mes-3 inter-normal-chicago-18px">Mes</div>
+                            <!-- Placeholder for calendar icon -->
+                            <div class="arrow-icon"></div>
+                            <!-- Month Dropdown -->
+                            <select id="monthDropdown" class="arrow-icon">
+                                <option value="" disabled selected>Selecione o mês</option>
+                                <option value="1">Janeiro</option>
+                                <option value="2">Fevereiro</option>
+                                <option value="3">Março</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Maio</option>
+                                <option value="6">Junho</option>
+                                <option value="7">Julho</option>
+                                <option value="8">Agosto</option>
+                                <option value="9">Setembro</option>
+                                <option value="10">Outubro</option>
+                                <option value="11">Novembro</option>
+                                <option value="12">Dezembro</option>
+                            </select>
+                        </div>                        
+                        <div class="overlap-group-2 overlap-group-4">
+                            <!-- Placeholder for calendar icon -->
+                            <div class="arrow-icon">
+                            </div>
+                            <!-- Year Dropdown -->
+                            <select id="yearDropdown" class="arrow-icon">
+                                <option value="" disabled selected>Selecione o ano</option>
+                                <!-- Add more years as needed -->
+                                <option value="2022">2015</option>
+                                <option value="2022">2016</option>
+                                <option value="2022">2017</option>
+                                <option value="2022">2018</option>
+                                <option value="2022">2019</option>
+                                <option value="2022">2020</option>
+                                <option value="2022">2021</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <!-- Add more years as needed -->
+                            </select>
+                        </div>                        
+                    </div>
+                </div>
+                
+                    <div class="flex-row-5">
+                        <div class="valido-ate inter-normal-black-18px">Valido ate</div>
+                        <div class="overlap-group-5">
+                            <!-- Dropdown menu for days with a placeholder -->
+                            <select class="arrow-icon" id="dayDropdown" required>
+                                <option value="" disabled selected hidden>Selecione o Dia</option>
+                                <option value="day1">1</option>
+                                <option value="day2">2</option>
+                                <option value="day3">3</option>
+                                <option value="day3">4</option>
+                                <option value="day3">5</option>
+                                <option value="day3">6</option>
+                                <option value="day3">7</option>
+                                <option value="day3">8</option>
+                                <option value="day3">9</option>
+                                <option value="day3">10</option>
+                                <option value="day3">11</option>
+                                <option value="day3">12</option>
+                                <option value="day3">13</option>
+                                <option value="day3">14</option>
+                                <option value="day3">15</option>
+                                <option value="day3">16</option>
+                                <option value="day3">17</option>
+                                <option value="day3">18</option>
+                                <option value="day3">19</option>
+                                <option value="day3">20</option>
+                                <option value="day3">21</option>
+                                <option value="day3">22</option>
+                                <option value="day3">23</option>
+                                <option value="day3">24</option>
+                                <option value="day3">25</option>
+                                <option value="day3">26</option>
+                                <option value="day3">27</option>
+                                <option value="day3">28</option>
+                                <option value="day3">29</option>
+                                <option value="day3">30</option>
+                                <option value="day3">31</option>
+                            </select>
+                        </div>                        </div>
+                        <div class="overlap-group-1 overlap-group-4">
+                            <!-- Placeholder for calendar icon -->
+                            <div class="arrow-icon">
+                            </div>
+                            <!-- Month Dropdown -->
+                            <select id="monthDropdown" class="arrow-icon">
+                                <option value="" disabled selected>Selecione o mês</option>
+                                <option value="1">Janeiro</option>
+                                <option value="2">Fevereiro</option>
+                                <option value="3">Março</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Maio</option>
+                                <option value="6">Junho</option>
+                                <option value="7">Julho</option>
+                                <option value="8">Agosto</option>
+                                <option value="9">Setembro</option>
+                                <option value="10">Outubro</option>
+                                <option value="11">Novembro</option>
+                                <option value="12">Dezembro</option>
+                            </select>
+                        </div> 
+                        <div class="overlap-group7">
+                            <div class="ano-3 inter-normal-chicago-18px">Ano</div>
+                            <!-- Placeholder for calendar icon -->                   
+                        </div>
+                        <div class="numero-cont inter-normal-black-18px">Numero Cont</div>
+                        <div class="frame-14 frame-1">
+                            <p class="insira-o-seu-numero-de-cont insira-o-seu-numero-de inter-normal-chicago-18px">
+                                Insira o seu numero de Cont
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col-5 flex-col-6">
+                <div class="group-8 group">
+                    <img class="line-3 line" src="line-3.svg" alt="Line 3" />
+                    <div class="naturalidade inter-normal-calypso-25px">Naturalidade</div>
+                    <!-- Placeholder for location icon -->                
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="line-4 line" src="line-3.svg" alt="Line 4" />
+    <div class="flex-row-6">
+        <div class="data-de-nascimento inter-normal-black-18px">Data de Nascimento</div>
+        <div class="overlap-group">
+            <div class="dia-3 inter-normal-chicago-18px">Dia</div>
+            <!-- Placeholder for calendar icon -->
+        <div class="overlap-group-1 overlap-group-4">
+            <div class="mes-3 inter-normal-chicago-18px">Mes</div>
+            <!-- Placeholder for calendar icon -->
+        <div class="overlap-group-2 overlap-group-4">
+            <div class="ano-3 inter-normal-chicago-18px">Ano</div>
+            <!-- Placeholder for calendar icon -->
+    </div>
+    </div>
+    </div>
+    <div class="flex-row">
+        <div class="freguesia inter-normal-black-18px">Freguesia</div>
+        <div class="frame frame-1">
+            <p class="insira-a-freguesia-onde-reside inter-normal-chicago-18px">Insira a freguesia onde reside</p>
+        </div>
+        <div class="concelho inter-normal-black-18px">Concelho</div>
+        <div class="overlap-group1">
+            <div class="selecionar inter-normal-chicago-18px">Selecionar</div>
+            <!-- Placeholder for dropdown icon -->
+    </div>
+    <div class="group-12 group">
+        <img class="line-3 line" src="line-3.svg" alt="Line 3" />
+        <div class="residncia inter-normal-calypso-25px">Residência</div>
+        <!-- Placeholder for location icon -->
+        <img class="line-4 line" src="line-3.svg" alt="Line 4" />
+    </div>
+    </div>
+    <div class="flex-row-7">
+        <div class="rua inter-normal-black-18px">Rua</div>
+        <div class="frame frame-1">
+            <p class="insira-a-rua-onde-reside inter-normal-chicago-18px">Insira a rua onde reside</p>
+        </div>
+        <div class="codigo-postal inter-normal-black-18px">Codigo Postal</div>
+        <div class="frame frame-1">
+            <div class="ex-1234-123 inter-normal-chicago-18px">ex: 1234-123</div>
+        </div>
+    </div>
+    <div class="flex-row">
+        <div class="freguesia inter-normal-black-18px">Freguesia</div>
+        <div class="frame frame-1">
+            <p class="insira-a-freguesia-onde-reside-1 inter-normal-chicago-18px">Insira a freguesia onde reside</p>
+        </div>
+        <div class="concelho inter-normal-black-18px">Concelho</div>
+        <div class="overlap-group1">
+            <div class="selecionar inter-normal-chicago-18px">Selecionar</div>
+            <!-- Placeholder for dropdown icon -->
+            <div class="arrow-icon"><iconify-icon icon="uil:arrow"></iconify-icon></div>        </div>
+    </div>
+    </div>
+    <div class="flex-row-8">
+        <div class="contacto inter-normal-black-18px">Contacto</div>
+        <div class="frame frame-1">
+            <p class="insira-o-seu-numero-de-telemovel insira-o-seu-numero-de inter-normal-chicago-18px">
+                Insira o seu numero de telemovel
+            </p>
+        </div>
+        <div class="ou inter-normal-black-18px">ou</div>
+        <div class="frame frame-1">
+            <div class="numero-de-telemovel-alternativo inter-normal-chicago-18px">Numero de telemovel alternativo</div>
+        </div>
+    </div>
+    <div class="group-13 group">
+        <div class="overlap-group12">
+            <div class="seguinte">Seguinte</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

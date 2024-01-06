@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+:root {
+    --black: rgba(0,0,0,1);
+    --calypso: rgba(47,108,143,1);
+    --steel-blue: rgba(62,133,173,1);
+    --chicago: rgba(91,91,91,1);
+    --white: rgba(255,255,255,1);
+    
+    --font-size-m: 18px;
+    --font-size-xl: 35px;
+    --font-size-xxl: 40px;
+    --font-size-m2: 11px;
+    --font-size-l2: 15px;
+    --font-size-xl2: 27px;
+
+    --font-family-inter: "Inter";
+}
+
+/* Classes */
+
+.inter-normal-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.inter-normal-chicago-15px {
+    color: var(--chicago);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: noraml;
+}

@@ -1,0 +1,782 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+.form {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 17px 0;
+  width: 1440px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.flex-row-8 {
+  align-items: center;
+  display: flex;
+  gap: 26px;
+  height: 42px;
+  margin-left: 16px;
+  margin-top: 15px;
+  min-width: 777px;
+}
+
+.contacto {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  min-height: 22px;
+  min-width: 79px;
+}
+
+.ou {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  min-height: 22px;
+  min-width: 22px;
+}
+
+.form .frame-1 {
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.frame {
+  border: 1px solid;
+  border-color: var(--black);
+  display: inline-flex;
+}
+
+.numero-de-telemovel-alternativo {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.insira-o-seu-numero-de-telemovel {
+  margin-top: -1px;
+}
+
+.form .insira-o-seu-numero-de {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.form .group {
+  align-items: flex-start;
+  display: flex;
+}
+
+.group-13 {
+  align-self: center;
+  margin-right: 95px;
+  margin-top: 12px;
+  min-width: 191px;
+}
+
+.overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--calypso);
+  border-radius: 5px;
+  display: flex;
+  height: 45px;
+  min-width: 189px;
+  padding: 7px 40px;
+}
+
+.seguinte {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 30px;
+    white-space: nowrap;
+}
+  
+.flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 5px;
+    min-height: 871px;
+    width: 1440px;
+}
+  
+.flex-row-7 {
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    height: 42px;
+    margin-left: 16px;
+    min-width: 581px;
+}
+  
+.ex-1234-123 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+  
+.codigo-postal {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 22px;
+    min-width: 119px;
+}
+  
+.insira-a-rua-onde-reside {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+  
+.rua {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 22px;
+    min-width: 33px;
+}
+  
+.flex-row {
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    margin-left: 16px;
+    min-width: 667px;
+}
+  
+.concelho {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 22px;
+    min-width: 81px;
+}
+  
+.overlap-group1 {
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--black);
+    border-radius: 5px;
+    display: flex;
+    gap: 6px;
+    height: 42px;
+    min-width: 151px;
+    padding: 8.4px 7px;
+}
+
+.selecionar {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1px;
+    min-height: 23px;
+    width: 93px;
+}
+  
+.uilarrow-2 {
+    align-self: flex-end;
+    height: 25px;
+    width: 25px;
+}
+  
+.insira-a-freguesia-onde-reside-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+  
+.freguesia {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 22px;
+    min-width: 84px;
+}
+  
+.form .flex-col-6 {
+    display: flex;
+    flex-direction: column;
+}
+  
+.flex-col-1 {
+    align-items: flex-start;
+    gap: 15px;
+    min-height: 757px;
+    width: 1440px;
+}
+  
+.insira-a-freguesia-onde-reside {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+  
+.group-12 {
+    align-self: flex-end;
+    flex-direction: column;
+    margin-right: 5px;
+    min-height: 60px;
+    width: 1419px;
+}
+  
+.line-4 {
+    margin-top: 15px;
+}
+  
+.form .line {
+    height: 2px;
+    margin-left: 0;
+    object-fit: cover;
+    width: 1417px;
+}
+  
+.residncia {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 25px;
+    margin-top: 13px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+  
+.line-3 {
+    margin-top: -1px;
+}
+  
+.flex-col-2 {
+    align-items: flex-start;
+    min-height: 625px;
+    width: 1440px;
+}
+  
+.flex-row-5 {
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    margin-left: 16px;
+    margin-top: 16px;
+    min-width: 898px;
+}
+
+.overlap-group6 {
+    align-items: flex-start;
+    background-image: url(https://cdn.animaapp.com/projects/6598bc4da24201a781cc2360/releases/65998eb6a24201a781cc2493/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    display: flex;
+    gap: 10px;
+    height: 31px;
+    justify-content: flex-end;
+    margin-top: 0.24px;
+    min-width: 83px;
+    padding: 6.2px 0;
+}
+  
+.uilarrow-1 {
+    align-self: flex-end;
+    height: 19px;
+    width: 25px;
+}
+  
+.form .mes-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 0;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 37px;
+}
+  
+.valido-ate {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 86px;
+}
+  
+.frame-14 {
+    border: 1px solid;
+    border-color: var(--black);
+    display: flex;
+    height: 33px;
+    width: 302px;
+}
+  
+.insira-o-seu-numero-de-cont {
+    margin-bottom: -3.5px;
+    margin-top: -5.5px;
+}
+  
+.numero-cont {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 131px;
+}
+  
+.overlap-group7 {
+    align-items: flex-start;
+    background-image: url(https://cdn.animaapp.com/projects/6598bc4da24281a781cc2368/releases/65998eb6a24281a781cc2493/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    display: flex;
+    gap: 6px;
+    height: 31px;
+    justify-content: flex-end;
+    margin-top: 0.24px;
+    min-width: 83px;
+    padding: 5.5px 6.2px;
+}
+  
+.uilarrow {
+    height: 19px;
+    width: 25px;
+}
+  
+.form .ano-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 0;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 35px;
+}
+
+.overlap-group5 {
+    align-items: flex-start;
+    background-image: url(https://cdn.animaapp.com/projects/6598bc4da24281a781cc2368/releases/65998eb6a24281a781cc2493/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    display: flex;
+    gap: 5px;
+    height: 31px;
+    justify-content: flex-end;
+    margin-top: 0.24px;
+    min-width: 83px;
+    padding: 5.5px 8.2px;
+}
+  
+.form .dia-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 0;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 29px;
+}
+  
+.flex-col-3 {
+    align-items: flex-start;
+    min-height: 411px;
+    width: 1440px;
+}
+  
+.rectangle-4 {
+    background-color: var(--calypso);
+    border: 1px solid;
+    height: 10px;
+    margin-top: 16px;
+    width: 1440px;
+}
+  
+.header {
+    align-items: flex-end;
+    align-self: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    gap: 131px;
+    height: 84px;
+    justify-content: flex-start;
+    margin-right: 2px;
+    min-width: 1346px;
+    width: auto;
+}
+  
+.title {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xx12);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 59px;
+    width: 217px;
+}
+  
+.flex-col-4 {
+    align-items: flex-end;
+    gap: 6px;
+    min-height: 84px;
+    width: 988px;
+}
+  
+.bem-vindo-flavio-carvalho {
+    color: transparent;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-12);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 27px;
+    min-height: 36px;
+    min-width: 113px;
+}
+  
+.span1 {
+    color: var(--calypso);
+}
+  
+.flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 42px;
+    min-width: 988px;
+}
+
+.registos-clinicos {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 43px;
+    min-height: 22px;
+    min-width: 145px;
+}
+  
+.historico-de-pedidos {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 43px;
+    min-height: 22px;
+    min-width: 177px;
+}
+  
+.realizar-pedido-de-acesso {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 22px;
+    min-width: 226px;
+}
+  
+.frame-9 {
+    align-self: flex-end;
+    background-color: #3e85ad;
+    display: inline-flex;
+    margin-left: 214px;
+}
+  
+.terminar-sessao {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-12);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+  
+.preencha-a-solicitac {
+    color: transparent;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 41px;
+    margin-top: 39px;
+    min-height: 30px;
+    white-space: nowrap;
+}
+  
+.flex-row-3 {
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    margin-left: 16px;
+    margin-top: 15px;
+    min-width: 656px;
+}
+  
+.bilhete-de-identidade-cc {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 4px;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 230px;
+}
+  
+.frame-13 {
+    border: 1px solid;
+    border-color: var(--black);
+    display: flex;
+    height: 15px;
+    width: 150px;
+}
+  
+.insira-o-seu-numero {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -3.6px;
+    margin-top: -5.6px;
+    position: relative;
+    height: 30px;
+    width: 350px;
+}
+
+.group-7 {
+    align-self: flex-end;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 27px;
+    min-height: 60px;
+    width: 1419px;
+}
+  
+.identificao {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 25px;
+    margin-top: 13px;
+    min-height: 29px;
+    font-size: var(--font-size-xx12);
+    white-space: nowrap;
+}
+  
+.nome {
+    align-items: center;
+    display: flex;
+    gap: 13px;
+    margin-left: 16px;
+    margin-top: 15px;
+    min-width: 578px;
+}
+  
+.frame-11 {
+    border: 1px solid;
+    border-color: var(--black);
+    display: flex;
+    height: 15px;
+    width: 150px;
+}
+  
+.insira-o-nome {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -3.6px;
+    margin-top: -5.6px;
+    position: relative;
+    height: 30px;
+    width: 350px;
+}
+  
+.place {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 0;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 52px;
+}
+  
+.flex-row-2 {
+    align-items: center;
+    display: flex;
+    gap: 26px;
+    margin-left: 16px;
+    margin-top: 15px;
+    min-width: 413px;
+}
+  
+.num-utente {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2px;
+    min-height: 18px;
+    white-space: nowrap;
+    width: 106px;
+}
+  
+.frame-12 {
+    border: 1px solid;
+    border-color: var(--black);
+    display: flex;
+    height: 15px;
+    width: 150px;
+}
+  
+.insira-o-seu-numero-de-utente {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -3.6px;
+    margin-top: -5.6px;
+    position: relative;
+    height: 30px;
+    width: 350px;
+}
+  
+.flex-row-4 {
+    align-items: flex-end;
+    display: flex;
+    gap: 26px;
+    margin-left: 16px;
+    margin-top: 13px;
+    min-width: 764px;
+}
+  
+.em {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2.24px;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 28px;
+}
+
+.form .overlap-group-4 {
+    align-items: flex-start;
+    display: flex;
+    height: 31px;
+    justify-content: flex-end;
+}
+  
+.overlap-group-2 {
+    background-image: url(https://cdn.animaapp.com/projects/6598bc4da24281a781cc2368/releases/65998eb6a24201a781cc2493/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    gap: 6px;
+    margin-bottom: 0;
+    min-width: 83px;
+    padding: 5.5px 6.2px;
+}
+  
+.overlap-group-1 {
+    background-image: url(https://cdn.animaapp.com/projects/6598bc4da24281a781cc2360/releases/65998eb6a24281a781cc2493/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    gap: 10px;
+    margin-bottom: 0;
+    min-width: 83px;
+    padding: 6.2px 0;
+}
+  
+.emitido-pelo-dsic-de {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 2.24px;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 204px;
+}
+  
+.overlap-group {
+    align-items: flex-start;
+    background-image: url(https://cdn.animaapp.com/projects/6598bc4da24281a781cc2368/releases/65998eb6a24281a781cc2493/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    display: flex;
+    gap: 5px;
+    height: 31px;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    min-width: 83px;
+    padding: 5.5px 8.2px;
+}
+  
+.overlap-group-3 {
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--white);
+    border-radius: 5px;
+    gap: 19px;
+    min-width: 151px;
+    padding: 6px 20.5px;
+}
+  
+.distrito {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 0;
+    min-height: 17px;
+    white-space: nowrap;
+    width: 400px;
+    height: 300px;
+}
+  
+.flex-col-5 {
+    align-items: flex-start;
+    align-self: flex-end;
+    gap: 15px;
+    margin-right: 5px;
+    margin-top: 15px;
+    min-height: 106px;
+    width: 1419px;
+}
+
+.group-8 {
+    flex-direction: column;
+    min-height: 60px;
+    width: 1419px;
+}
+  
+.naturalidade {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 25px;
+    margin-top: 13px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+  
+.flex-row-6 {
+    align-items: flex-end;
+    display: flex;
+    gap: 26px;
+    min-width: 502px;
+}
+  
+.data-de-nascimento {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1.24px;
+    min-height: 22px;
+    min-width: 173px;
+}
+
+.arrow-icon{
+    width: 180px;
+    height: 40px;
+}
